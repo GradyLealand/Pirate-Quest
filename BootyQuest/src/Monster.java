@@ -1,5 +1,4 @@
-
-public abstract class Monster {
+public class Monster {
 	//----Stat's----
 	private String name = "";
 	private  int hp = 0;
@@ -46,7 +45,53 @@ public abstract class Monster {
 		this.drop = drop;
 	}
 	
-	public abstract int attack();
+	public int attack(){
+		return 1;
+	}
 	
-	public abstract int defence();
+	public int defence(){
+		return 1;
+	}
+	
+	//----Constructors----
+	public Monster angryCrab(Monster monster){
+		monster.setHp(20);
+		monster.setAttack(1);
+		monster.setDeffence(1);
+		monster.setSpeed(3);
+		monster.setDrop(20);
+		
+		return monster;
+	}
+	
+	public Monster giantClam(Monster monster){
+		monster.setHp(60);
+		monster.setAttack(2);
+		monster.setDeffence(3);
+		monster.setSpeed(4);
+		monster.setDrop(50);
+		
+		return monster;
+	}
+	
+	public Monster giantSquid(Monster monster){
+		monster.setHp(100);
+		monster.setAttack(4);
+		monster.setDeffence(1);
+		monster.setSpeed(3);
+		monster.setDrop(80);
+		
+		return monster;
+	}
+	
+	public Monster kracken(Monster monster){
+		monster.setHp(200);
+		monster.setAttack(6);
+		monster.setDeffence(3);
+		monster.setSpeed(3);
+		monster.setDrop(150);
+		
+		return monster;
+	}
 }
+
