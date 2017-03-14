@@ -106,7 +106,7 @@ public class Ship {
 		ship.maxAtk = 5;
 		ship.minAtk = 2;
 		ship.deffence = 2;
-		ship.speed = 3;
+		ship.speed = 7;
 		ship.booty = 500;
 		
 		//set starting equipment
@@ -129,7 +129,7 @@ public class Ship {
 		ship.maxAtk = 8;
 		ship.minAtk = 5;
 		ship.deffence = 4;
-		ship.speed = 4;
+		ship.speed = 6;
 		ship.booty = 50;
 		
 		//set starting equipment
@@ -155,7 +155,7 @@ public class Ship {
 		ship.maxAtk = 10;
 		ship.minAtk = 1;
 		ship.deffence = 3;
-		ship.speed = 6;
+		ship.speed = 4;
 		ship.booty = 50;
 		
 		//set starting equipment
