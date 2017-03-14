@@ -1,6 +1,15 @@
 
-public abstract class Item {
-	private int cost = 0;
+ppublic abstract class Item {
+	protected int cost = 0;
+	private String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
 
 	public int getCost() {
 		return cost;
