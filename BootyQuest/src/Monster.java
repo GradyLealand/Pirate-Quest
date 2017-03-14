@@ -58,7 +58,7 @@ public class Monster {
 		monster.setHp(20);
 		monster.setAttack(1);
 		monster.setDeffence(1);
-		monster.setSpeed(3);
+		monster.setSpeed(6);
 		monster.setDrop(20);
 		
 		return monster;
@@ -68,7 +68,7 @@ public class Monster {
 		monster.setHp(60);
 		monster.setAttack(2);
 		monster.setDeffence(3);
-		monster.setSpeed(4);
+		monster.setSpeed(5);
 		monster.setDrop(50);
 		
 		return monster;
@@ -78,7 +78,7 @@ public class Monster {
 		monster.setHp(100);
 		monster.setAttack(4);
 		monster.setDeffence(1);
-		monster.setSpeed(3);
+		monster.setSpeed(5);
 		monster.setDrop(80);
 		
 		return monster;
@@ -88,7 +88,7 @@ public class Monster {
 		monster.setHp(200);
 		monster.setAttack(6);
 		monster.setDeffence(3);
-		monster.setSpeed(3);
+		monster.setSpeed(4);
 		monster.setDrop(150);
 		
 		return monster;
